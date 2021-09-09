@@ -15,9 +15,36 @@
 
 // console.log("x=", x , "y=", y);
 
-var p = 8;
-var q = 10; 
+// var p = 8;
+// var q = 10; 
 
-[p,q] = [q, p]
+// [p,q] = [q, p]
 
-console.log("p=", p , "q=", q);
+// console.log("p=", p , "q=", q);
+
+// new practice
+
+var x = 10;
+var y = 30;
+
+var z = x;
+    x = y;
+    y = z;
+
+    console.log("x = ", x , "y = ", y);
+
+    // 2nd system
+
+var p = 20;
+var q = 10;
+
+// p = p+q;
+// q = p-q;
+// p = p-q
+
+console.log("after swap: p = ", p, "q = ", q);
+
+// 3rd system
+
+[p, q] = [q, p]
+console.log("after swap: p = ", p, "q = ", q);
