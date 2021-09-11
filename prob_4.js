@@ -1,6 +1,6 @@
-var minister = 450;
-var shochib = 568;
-var business = 770;
+// var minister = 450;
+// var shochib = 568;
+// var business = 770;
 
 // if( minister > shochib){
 //     if(minister > business){
@@ -19,5 +19,26 @@ var business = 770;
 //     }
 // }
 
-var max =  Math.max(business, minister, shochib)
-console.log(max);
+// var max =  Math.max(business, minister, shochib)
+// console.log(max);
+
+var x= 504558;
+var y = 45215;
+var z = 5284;
+
+if (x>y) {
+    if (x>z) {
+        console.log("x is bigger");        
+    }
+    else{
+        console.log("z is bigger");
+    }
+}
+else{
+    if (y>z) {
+        console.log("y is bigger");
+    }
+    else{
+        console.log("z is bigger");
+    }
+}

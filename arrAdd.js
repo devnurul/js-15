@@ -32,6 +32,7 @@ function addArrayNumber(numbers){
     }
     return sum
 }
+
  var Numbers = [1, 2, 3, 4 ,5]
 
  var result = addArrayNumber(Numbers);

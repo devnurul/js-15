@@ -38,9 +38,11 @@ var z = x;
 var p = 20;
 var q = 10;
 
-// p = p+q;
-// q = p-q;
-// p = p-q
+p = p+q;
+q = p-q;
+p = p-q;
+
+
 
 console.log("after swap: p = ", p, "q = ", q);
 
